@@ -28,16 +28,22 @@ p {
     line-height: 1.4em;
     color: #333;
 }
-.container {
+#wrap {
     width: 800px;
     margin: auto;
 }
-.photo {
+#main {
     width: 500px;
-    height: 80%;
     padding: 50px;
+    float: left;
 }
-.blurb {
+#sidebar {
+    width: 200px;
     text-align: left;
+    float: right;
     font-size: 20px;
+}
+#footer {
+    clear: both;
+    padding: 5px 10px;
 }
