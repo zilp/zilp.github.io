@@ -1,6 +1,4 @@
 body {
-    margin: 60px auto;
-    width: 70%;
     font-family:'Perpetua', 'Times';
 }
 nav ul, footer ul {
@@ -11,6 +9,10 @@ nav ul, footer ul {
 nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
+}
+footer {
+    clear: both;
+    padding: 5px 10px;
 }
 a {
     text-decoration: none;
@@ -42,8 +44,4 @@ p {
     text-align: left;
     float: right;
     font-size: 20px;
-}
-#footer {
-    clear: both;
-    padding: 5px 10px;
 }
