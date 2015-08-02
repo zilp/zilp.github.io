@@ -1,9 +1,9 @@
 body {
     margin: 60px auto;
     width: 70%;
+    font-family:'Perpetua', 'Times';
 }
 nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
     list-style: none;
     font-weight: bold;
@@ -27,4 +27,17 @@ p {
     font-size: 1.5em;
     line-height: 1.4em;
     color: #333;
+}
+.container {
+    width: 800px;
+    margin: auto;
+}
+.photo {
+    width: 500px;
+    height: 80%;
+    padding: 50px;
+}
+.blurb {
+    text-align: left;
+    font-size: 20px;
 }
