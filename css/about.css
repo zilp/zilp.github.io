@@ -35,7 +35,7 @@ a {
     color: #999;
 }
 a:hover {
-    font-weight: bold;
+    color: #666;
 }
 a:select {
     font-weight: bold;
