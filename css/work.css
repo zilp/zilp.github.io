@@ -1,5 +1,5 @@
 body {
-    font-family: 'Helvetica', 'Arial' sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
 }
 
 nav {
@@ -63,6 +63,11 @@ p {
     padding-top: 50px;
     margin: auto;
     font-weight: 100;
+    display: block;
+}
+
+#galaxy {
+  align-items: center;
 }
 
 img.desaturate {
