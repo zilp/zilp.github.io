@@ -10,34 +10,26 @@ nav {
   font-size: 16px;
 }
 
-#title {
-  float: center;
-  padding-left: 20%;
-  letter-spacing: 1px;
-  font-size: 18px;
-  padding-top: 30px;
-  font-weight: 100;
-}
-
 nav ul, footer ul {
     padding: 0px;
     list-style: none;
     font-weight: 100;
 }
 nav ul li {
-    display: inline-block;
+    display: inline;
     margin-right: 20px
 }
 
 footer {
-    padding-left: 20%;
     clear: both;
+    text-align: center;
     padding-top: 10px;
     font-size: 8px;
 }
 
 footer ul li {
   display: inline;
+  margin-left: 20px;
 }
 
 a {
@@ -59,21 +51,10 @@ p {
     margin: auto;
 }
 #main {
-  text-align: left;
-    width: 275px;
-    padding-left: 20%;
-    font-size: 15px;
-    padding-top: 20px;
-    clear: both;
-    float: center;
-    font-weight: 300;
-}
-
-#photo {
-  padding-left: 20%;
-  clear: both;
-  float: center;
-  padding-top: 20px;
+    width: 500px;
+    padding-right: 20px;
+    padding-top: 10px;
+    float: left;
 }
 
 img.desaturate {
